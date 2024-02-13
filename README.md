@@ -23,9 +23,14 @@ Once the model is trained, its performance is evaluated on the testing dataset, 
 I visualize the predicted stock prices alongside the actual prices to gain insights into the model's performance.
 
 ## Part 3: Model Adaptation
+The model's predictions did not change significantly even after adding simulated spikes in social media sentiment. This indicates that the current model may not be effectively capturing the impact of extreme sentiment on stock prices. Some potential modifications and feature engineering approaches that could improve its performance are:
+- Incorporating features related to stock market volatility, trading volume, and historical price movements. These features can provide context and help the model better understand the relationship between sentiment and stock prices.
 
 ## Part 4: Concusion and Future Directions
+The GameStop short squeeze had a profound impact on the effectiveness of traditional forecasting models and highlighted the potential value of incorporating social media sentiment data in financial analysis. Here's an analysis of these aspects along with a discussion on the ethics of social media mining:
 
 ## Packages Used
-<img src="{https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white}" />
-![image]({https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white})
+![PyTorch](https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?style=for-the-badge&logo=PyTorch&logoColor=white)
+![scikit-learn](https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white)
+![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white)
+![Matplotlib](https://img.shields.io/badge/Matplotlib-%23ffffff.svg?style=for-the-badge&logo=Matplotlib&logoColor=black)
